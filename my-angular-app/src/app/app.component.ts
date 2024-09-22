@@ -12,6 +12,6 @@ export class AppComponent {
   title = 'my-angular-app';
 
   setTitle(title: string) {
-    this.title = title;
+    this.title = title + ' - my-angular-app';
   }
 }
